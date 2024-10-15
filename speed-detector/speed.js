@@ -18,3 +18,4 @@ function speedDetector(){
 }
 // print to console the result
 console.log(speedDetector());
+alert(speedDetector())

@@ -118,8 +118,14 @@ const benefits = prompt("Enter benefits:");
 const calculatorDetails = netCalculator(basicSalary, benefits);
 
     console.log("Gross Salary:", calculatorDetails.grossSalary);
+    alert("Gross Salary: " + calculatorDetails.grossSalary)
     console.log("NHIF:", calculatorDetails.nhif);
+    alert("NHIF: " + calculatorDetails.nhif)
     console.log("NSSF:", calculatorDetails.nssf);
+    alert("NSSF: " + calculatorDetails.nssf)
     console.log("housingLevy", calculatorDetails.housingLevy)
+    alert("housingLevy: " + calculatorDetails.housingLevy)
     console.log("PAYEE Deductions:", calculatorDetails.payee);
+    alert("PAYEE Deductions: " + calculatorDetails.payee)
     console.log("NetSalary:", calculatorDetails.netSalary);
+    alert("NetSalary: " + calculatorDetails.netSalary)

@@ -21,6 +21,8 @@ if(marks >= 0 && marks <= 100){
     }
     // log the marks
     console.log(grader());
+    alert(grader())
 }else{
     console.log("Input marks between 0 and 100");
+    alert(grader())
 }
